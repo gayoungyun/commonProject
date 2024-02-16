@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class common_ {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		Temperature temp = new Temperature();
 		int num=0; 
 		
 		while (true) {
@@ -12,7 +13,9 @@ public class common_ {
 			System.out.print(">>>");
 			num = input.nextInt();
 		switch(num){
-			case 1 : System.out.println("에어컨 온도조절");break;
+			case 1 : 
+				temp.display();
+				break;
 			case 2 : System.out.println("에어컨 풍량조절");
 			Seo s = new Seo();
 				s.display();
