@@ -8,7 +8,8 @@ public class common_ {
 		int num=0; 
 		
 		while (true) {
-			System.out.print("입력");
+			System.out.println("메뉴 입력");
+			System.out.print(">>>");
 			num = input.nextInt();
 		switch(num){
 			case 1 : System.out.println("에어컨 온도조절");break;
